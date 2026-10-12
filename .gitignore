@@ -1,0 +1,19 @@
+# Entornos virtuales
+.venv/
+venv/
+mlflow-env/
+
+# Base de datos y registros locales de MLflow
+mlflow.db
+mlflow.db-*
+mlruns/
+mlartifacts/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Configuración local
+.env
+.ipynb_checkpoints/
+.vscode/
